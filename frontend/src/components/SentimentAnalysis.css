@@ -1,0 +1,52 @@
+.sentiment-container {
+    text-align: center;
+    background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+    padding: 40px;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 50px auto;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .title {
+    font-size: 24px;
+    color: #ffffff;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .text-input {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    background-color: #fff;
+    color: #333;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .analyze-btn {
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: 0.3s ease-in-out;
+  }
+  
+  .analyze-btn:hover {
+    background: linear-gradient(135deg, #2575fc, #6a11cb);
+  }
+  
+  .sentiment-result {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
